@@ -1,4 +1,4 @@
-package com.amigoscode.classesandobjects;
+package com.amigoscode.organize_the_code.person;
 
 import java.util.Objects;
 

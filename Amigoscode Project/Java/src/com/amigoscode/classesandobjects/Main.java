@@ -1,5 +1,11 @@
 package com.amigoscode.classesandobjects;
 
+import com.amigoscode.organize_the_code.car.Car;
+import com.amigoscode.organize_the_code.car.CarBrand;
+import com.amigoscode.organize_the_code.person.Address;
+import com.amigoscode.organize_the_code.person.Gender;
+import com.amigoscode.organize_the_code.person.Person;
+
 import java.math.BigDecimal;
 
 public class Main {
@@ -13,7 +19,7 @@ public class Main {
         Address address = new Address(
           "FooBar 123",
           "PBR150",
-          "PaKistan"
+          "Pakistan"
         );
 
         Car audiCar = new Car(
