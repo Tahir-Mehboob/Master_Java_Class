@@ -3,7 +3,7 @@ package com.amigoscode.organize_the_code.car;
 public class CarDao {
 
     private static Car cars[];
-    private static int nextAvailableSlots;
+    private static int nextAvailableSlots=0;
     private static final int capacity = 10;
 
     static{
@@ -13,9 +13,10 @@ public class CarDao {
 
     public void saveCar(Car car){
         if(nextAvailableSlots +1 >= capacity){
-            cars[nextAvailableSlots] = car;
-            ++nextAvailableSlots;
+
         }
+        cars[nextAvailableSlots] = car;
+        ++nextAvailableSlots;
 
     }
 

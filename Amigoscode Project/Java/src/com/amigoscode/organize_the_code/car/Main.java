@@ -14,7 +14,7 @@ public class Main {
         CarService carService = new CarService();
         carService.registerNewCar(car);
 
-        System.out.println( carService.getCars());
+        System.out.println(Arrays.toString( carService.getCars() ));
 
     }
 }

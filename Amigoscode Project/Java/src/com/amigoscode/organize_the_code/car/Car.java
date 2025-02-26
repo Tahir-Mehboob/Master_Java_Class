@@ -1,9 +1,10 @@
 package com.amigoscode.organize_the_code.car;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Objects;
 
-public class Car {
+public class Car implements Serializable {
     private CarBrand brand;
     private BigDecimal price;
 
