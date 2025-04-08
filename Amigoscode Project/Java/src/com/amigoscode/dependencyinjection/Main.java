@@ -14,6 +14,10 @@ public class Main {
          //injections
         CarService carService = new CarService(car,emailService,motService);
 
+        // note how to optimize above code by using spring boot @Bean
+        // or singleton pattern which bean by default fellow
+
+        
     }
 
 }
