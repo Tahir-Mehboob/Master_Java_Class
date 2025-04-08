@@ -6,7 +6,7 @@ import java.awt.*;
 import java.util.Arrays;
 
 public class Main {
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
 
         System.out.println("Hello Java ");
         System.out.println(10+10);
@@ -128,31 +128,31 @@ public class Main {
         l1.printArrayExercise6();
 
         // Task # 8
-        l1.loopPrintInAscendingOrder();
+     //   l1.loopPrintInAscendingOrder();
 
         // Task # 9
         l1.loopPrintInDescendingOrder();
 
         // Task # 10
-        l1.addingAllNumberIntoArray();
+      //  l1.addingAllNumberIntoArray();
 
         // Task # 12
-        l1.arrayWordsCapital();
+        //l1.arrayWordsCapital();
 
         // Task # 13
-        l1.arrayFirstLetterCapital();
+     //   l1.arrayFirstLetterCapital();
 
         // Task # 13 2nd approach
-        l1.arrayFirstWordLetterCapital();
+     //   l1.arrayFirstWordLetterCapital();
 
         // Task # 14
-        l1.reverseArray();
+    //    l1.reverseArray();
 
 
         // Task # 15
-        l1.stringToArraySumTotal();
+      //  l1.stringToArraySumTotal();
     }
-
+*/
 
     // create a method for increment the varaible
     static int increment(int age){
