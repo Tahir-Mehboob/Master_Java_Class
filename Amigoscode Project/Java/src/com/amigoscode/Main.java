@@ -1,12 +1,12 @@
 package com.amigoscode;
 
+import com.amigoscode.loopandarrays.LoopsAndArrays_Exercise;
+
 import java.awt.*;
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-
-
 
         System.out.println("Hello Java ");
         System.out.println(10+10);
