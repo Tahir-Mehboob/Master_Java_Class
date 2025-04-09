@@ -1,6 +1,6 @@
 package com.amigoscode.solid;
 
-public class Square {
+public class Square implements Shape {
 
     private final int length;
 
@@ -12,4 +12,9 @@ public class Square {
         return length;
     }
 
+
+    @Override
+    public double area() {
+        return  Math.pow(getLength(),2);
+    }
 }

@@ -14,20 +14,45 @@ public class AreaCalculator {
         return sum;
     }*/
 
-    public int sum(List<Object> shapes) {
+    public int sum(List<Shape> shapes) {
 
         int sum = 0;
         for(int i = 0; i < shapes.size(); i++){
 
-            Object shape = shapes.get(i);
+            // how to inline in a single line ctrl+alt+n
+/*            Shape shape = shapes.get(i);
+                sum += shape.area();*/
 
-            if(shape instanceof Square){
+            sum +=shapes.get(i).area();
+
+            /**
+             * Apply O - Open/Closed Principle (OCP)
+             * by commenting out below code
+             * @Tahir Mehboob
+             */
+
+           /* if(shape instanceof Square){
                 sum += Math.pow( ((Square) shape).getLength(),2);
             }
 
             if(shape instanceof Circle){
                 sum += Math.PI * Math.pow(((Circle) shape).getRadius(),2);
-            }
+            }*/
+
+            /**
+             * O - Open/Closed Principle (OCP)
+             * Break rule number 2 open and close principle
+             * Extend behavior, don’t modify existing code.
+             * Q How to reslove below issue when adding new shapes instead of rewriting code in existing class
+             * use Interface Shape and all new Shapes implement to follow the above rule
+             *
+             * @Tahir Mehboob
+             */
+
+            /*if(shape instanceof Cube){
+                sum += (6) *  Math.pow( ((Square) shape).getLength(),2)
+            }*/
+
         }
         return sum;
     }
