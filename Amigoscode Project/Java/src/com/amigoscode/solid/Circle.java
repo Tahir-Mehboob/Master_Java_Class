@@ -17,4 +17,14 @@ public class Circle implements Shape {
     public double area() {
         return Math.PI * Math.pow(getRadius(),2);
     }
+
+    /**
+     * break the Rule b/c circle can't calculate the volume
+     * @Tahir Mehboob
+     * @return
+     */
+    @Override
+    public double volume() {
+        return 0;
+    }
 }

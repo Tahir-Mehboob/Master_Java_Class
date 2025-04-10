@@ -5,4 +5,9 @@ public class Cube implements Shape {
     public double area() {
         return 2;
     }
+
+    @Override
+    public double volume() {
+        return 0;
+    }
 }

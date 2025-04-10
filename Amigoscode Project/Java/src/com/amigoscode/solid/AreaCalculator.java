@@ -4,7 +4,7 @@ import java.awt.*;
 import java.util.List;
 import java.util.Objects;
 
-public class AreaCalculator {
+public class AreaCalculator implements IAreaCalculator {
 
     /*public int sum(List<Object> shapes) {
         int sum = 0;
@@ -14,6 +14,7 @@ public class AreaCalculator {
         return sum;
     }*/
 
+    @Override
     public int sum(List<Shape> shapes) {
 
         int sum = 0;

@@ -17,4 +17,16 @@ public class Square implements Shape {
     public double area() {
         return  Math.pow(getLength(),2);
     }
+
+    /**
+     * Also break the rule b/c  square not  follow the rule to calculate the volume
+     * b.c not 3D object and interface force to implement the volume method
+     * @Tahir Mehboob
+     * @return
+     */
+    @Override
+    public double volume() {
+        return 0;
+    }
+
 }

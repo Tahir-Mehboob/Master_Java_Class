@@ -1,9 +1,11 @@
 package com.amigoscode.solid;
 
-public class Rectangle implements Shape {
+public class NoShape implements Shape {
+
     @Override
     public double area() {
-        return 5;
+        //throw new IllegalStateException("Cannot calculate area of no shape.");
+        return 0 ;
     }
 
     @Override
