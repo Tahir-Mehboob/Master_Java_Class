@@ -1,7 +1,7 @@
 package com.amigoscode.datastucture.list;
 
 import java.util.ArrayList;
-import java.util.Collection.List;
+import java.util.List;
 
 public class WorkingWithLists {
 
