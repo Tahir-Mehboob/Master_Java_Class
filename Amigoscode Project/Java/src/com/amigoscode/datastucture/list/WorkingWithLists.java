@@ -27,6 +27,5 @@ public class WorkingWithLists {
             System.out.println(" \n "+color);
         }
 
-
     }
 }
